@@ -220,7 +220,7 @@ resource "aws_security_group" "our-security-group-for-nexus" { # This will creat
 }
 
 resource "aws_security_group" "our-Security-Group-for-sonar" { # This will create security group in vpc
-  name = "OOur-Security-Group-for-sonar" # name for security group
+  name = "Our-Security-Group-for-sonar" # name for security group
   description = "Our Security Group" # description for SG
   vpc_id = aws_vpc.our-vpc.id # Vpc in which this SG will be created
   tags = {
